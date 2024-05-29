@@ -10,21 +10,21 @@
 ############################
 
 # Name of website
-title: My website
+title: Language Services • Svetlana Karbysheva
 
 # Your name to show in the footer
-author: Some Person
+author: Svetlana Karbysheva
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  About me: "aboutme"
+  Services:
+    # - Translation: "https://beautifuljekyll.com"
+    # - Interpreting: "https://www.markdowntutorial.com/"
+  Contact: "https://deanattali.com"
 
 ################
 # --- Logo --- #
@@ -32,14 +32,14 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+#avatar: "/assets/img/avatar-icon.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-round-avatar: true
+#round-avatar: false
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-#title-img: /path/to/image
+title-img: "/assets/img/logo-topleft_eng.png"
 
 
 #####################################
@@ -115,7 +115,7 @@ feed_show_excerpt: true
 feed_show_tags: true
 
 # Add a search button to the navbar
-post_search: true
+#post_search: true
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
 edit_page_button: true
